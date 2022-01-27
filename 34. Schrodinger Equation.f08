@@ -150,7 +150,7 @@ end subroutine SolveSHO
 program Schrodinger
  implicit none
  real(kind = 8) :: x0 = 3.0
- integer :: steps = 1000
+ integer :: steps = 10000
  real(kind = 8) :: y1 = 0.0, y2 = -1.0
  real(kind = 8) :: energy_low, energy_high
  real(kind = 8) :: energy = 0
